@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <style>
+        *{margin: 0; padding: 0; color: inherit; text-decoration: none;}
+        .swiper{
+            width: 1320px;
+            margin: 0 auto;
+            height: 64px;
+        }
+
+        .swiper .swiper-wrapper{}
+        .swiper .swiper-wrapper .swiper-slide{
+            width: calc((100% - 20px) / 2);
+        }
+
+        .swiper .swiper-wrapper .swiper-slide a{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            line-height: 32px;
+        }
+
+        .swiper .swiper-wrapper .swiper-slide a .t{
+            width: 60%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            text-wrap: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">1동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">2동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">3동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">4동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">5동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">6동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">7동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">8동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="#">
+                    <div class="t">9동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</div>
+                    <div class="d">2023-10-25</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const a = new Swiper(".swiper", {
+            slidesPerView: 2,
+            grid: {
+                rows: 2
+            },
+            direction: "vertical",
+            loop: true
+        });
+    </script>
+</body>
+</html>

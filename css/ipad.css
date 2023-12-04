@@ -1,0 +1,135 @@
+@media (min-width: 900px){
+
+    header .h_wrap{
+        width: 100%
+    }
+    
+    .s1 .s1_wrap{
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .s1 .s1_wrap .box{
+        width: calc(50% - 10px);
+    }
+  
+    .s2_1 h3, .s2_2 h3, .s3 h3{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    .s2_1 .sub_slide .swiper-wrapper .swiper-slide{
+        font-size: 18px;
+    }
+
+    .s2_1 .sub_slide .swiper-wrapper .swiper-slide span{
+        font-size: 22px;
+    }
+    .s2_1 .main_slide .swiper-wrapper .swiper-slide h5{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .s2_1 .s2_1_wrap .main_slide .swiper-wrapper .swiper-slide .txt{
+        margin-top: 30px;
+    }
+    .s3 .s3_wrap{
+        width: 100%;
+    }
+    .s3 .tabs ul{
+        font-size: 20px;
+    }
+    .s2_2 .txt{
+        font-size: 16px;
+    }
+    .s2_2 .txt .t_wrap{
+        width: 300px;
+        padding-left: 60px;
+    }
+   
+    .s3 .con .item .i_wrap{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .s3 .con .item .pix{
+        width: 50%;
+        
+    }
+    .s3 .con .item .gaya{
+        width: calc(50% - 20px);
+        font-size: 16px;
+        align-items: center;
+        margin-right: auto;
+        margin-top: 10px;
+      
+    }
+    .s3 .con .item .event:last-child{
+        margin-right: 60px;
+    }
+    
+     .s3 .con .item .event .menu{
+       width: calc(100% - 10px);
+       margin: 0 auto;
+    }
+    .s3 .con .item .event .menu .pix{
+        width: 400px;
+        height: 270px;
+        overflow: hidden;
+        padding-left: 12px;
+    }
+    .s3 .con .item .event .menu img{
+        width: 100%;
+    } 
+    .s3 .con .item .event .txt{
+        padding-left: 12px;
+    }
+    .s4 .swiper-wrapper .swiper-slide .tit{
+        width: 600px;
+    }
+   
+    footer .fo_1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    footer .fo_1 ul{
+        flex-wrap: nowrap;
+    }
+    footer .fo_1 .ico_ul{
+       margin-left: auto;
+    }
+    footer .fo_2{
+        align-items: center;
+        margin-bottom: 0;
+        padding: 10px 0;
+        margin-top: 0;
+        flex-direction: row;
+    }
+    footer .fo_2 h2{
+        display: block;
+        margin-right: 20px;
+    }
+    footer .fo_2 .sns .sub_logo .mo{
+        display: none;
+    }
+    footer .fo_2 .sns .sub_logo .pc{
+        display: block;
+    }
+    footer .fo_2 .sns{
+        display: flex;
+        margin-left: auto;
+    }
+    footer .fo_2 .sns .s_wrap{
+        width: 82px;
+        flex-wrap: wrap;
+    }
+    footer .fo_2 .sns .sub_logo{
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    footer .copy{
+        padding: 5px 0;
+        text-align: center;
+    }
+}
+
