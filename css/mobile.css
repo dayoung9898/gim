@@ -53,6 +53,7 @@ header nav{
     color: #6f6f6f;
     font-family: 'pretendard-var';
     overflow: visible scroll;
+    z-index: 99;
 }
 
 .header nav .n_wrap{
